@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>video Tag</title>
+</head>
+<body>
+	
+	<h3>Video tag has so many attributes. Such as (Autoplay, controls, loop, muted, preload, src, poster, width, height)</h3>
+	<br>
+
+	<P>width: It is better not to use height in video tag. Height takes automatically when we give width to the video. </P>
+	<p>autoplay: Chromium browsers do not allow autoplay in most cases. However, muted autoplay is always allowed. Add <u>muted</u> after <u>autoplay</u> to let your video file start playing automatically (but muted). </p>
+	<br>
+
+
+	<video controls autoplay muted loop width="350px" poster="../images/picture_1.png">
+		<source src="../videos/video_1.mp4" type="video/mp4">
+	</video>
+
+</body>
+</html>
